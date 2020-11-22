@@ -1,0 +1,319 @@
+*,
+*::before,
+*::after{
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+html{
+	
+	font-size: 12px;
+	color: skyblue;
+	background-color: rgb(1,19,19);
+}
+
+li{
+	font-size: 20px;
+	
+}
+a{
+	text-decoration: none;
+	color:skyblue;
+}
+ul{
+	list-style: none;
+}
+p {
+	font-size: 1.4rem;
+}
+
+header{
+	width : 100%;
+	height: 5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.container{
+	width: 100%;
+	max-width: 90rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+
+}
+.pict{
+	height: 12rem;
+	width: auto;
+	border-radius: 50%;
+	display:block;
+	margin:1.5rem 0;
+}
+
+.line{
+	width:25px;
+	height: 3px;
+	margin: 5px 0;
+	background: orange;
+	margin-left: 5px;
+	
+}
+	
+	.menu-icon{
+		cursor: pointer;
+		z-index: 999;
+		position: fixed;
+		left:0;
+		top:0;
+		background:rgb(84, 83, 78);
+		padding: 1.2rem;
+		border-radius:0% 0% 20% 0%;
+
+	}
+	.caption{
+		display: block;
+		align-items: center;
+		color: white;
+
+	}
+	.nav-list{
+		width: 24rem;
+		height: 100vh;
+		background-color: purple;
+		position: fixed;
+		top: 0;
+		left: -26rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	    transition : all 600ms ease-in-out;
+
+	}
+	.nav-list.active{
+     left:0;
+	}
+	.nav-item{
+		margin: 1.2rem 0;
+		}
+	.nav-link{
+		opacity:1;
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		color: white;
+		letter-spacing: 1.5px;
+	}
+
+.nav-link:hover{
+	color:orange;
+}
+.toggle{
+	background: none;
+}
+#home-page{
+	width:100%;
+	height: 100vh;
+    background-size: contain;
+	position: relative;
+}
+.message{
+	width: 100%;
+	max-width: 58rem;
+	position: absolute;
+	left: 28%;
+	top: 30%;
+	text-align: center;
+}
+.message h2{
+	
+	font-size: 3rem;
+	font-weight:600;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 48ch;
+	animation:typing 5s steps(48);
+	margin: auto;
+
+}
+@keyframes typing{
+	0%{
+		width:0ch;
+		color:orange;
+	}
+	100%{
+		width:48ch;
+	}
+
+}
+.message p {
+	font-size: 1.9rem;
+	font-weight: 500;
+}
+.main-btn{
+	display:flex;
+	justify-content:center;
+
+}
+.btn {
+	margin:0 9px;
+	background-color: blue;
+	border-radius: 2rem;
+	color:#fafafa;
+	padding: 1rem 2.5rem;
+	display:inline-block;
+	margin-top: 2rem;
+	font-weight: 500px;
+	font-size: 2rem;
+	letter-spacing: 2px;
+}
+.btn:hover{
+	color: #fafafa;
+	background-color: orange;
+}
+#about{
+	
+	min-height: 100vh;
+	max-width: 70rem;
+	/*margin-left: auto;*/
+	margin-left: 300px;
+	padding-top: 20px;
+}
+
+.about.container{
+	display:flex;
+	text-align: center;
+	min-height:60vh;
+	margin-left: auto;
+
+}
+.indent{
+	text-indent: 30px;
+}
+.about-text p{
+	font-size: 20px;
+	
+
+}
+.about-text h1{
+	font-size:25px;
+	
+}
+.projects{
+	
+	/*min-height: 100vh;*/
+	min-height: 60vh;
+	max-width: 70rem;
+	margin-left: 300px;
+	padding: 3rem 0;
+	
+}
+.projects.container{
+	display:flex;
+	text-align: center;
+	/*min-height:80vh;*/
+	min-height:40vh
+	margin-top: .2rem;
+	
+}
+
+.pro{
+	width : 400px;
+}
+.description1{
+ display:flex;
+ margin:40px;
+}
+.description1 p {
+	/*flex:1;*/
+	margin: 2rem 0;
+	/*display:flex;*/
+	font-size: 20px;
+
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom:2rem;
+	padding-bottom: 2rem;
+}
+
+.title p{
+	font-size:22px;
+}
+.items{
+	background-color: #ac5dd642;
+	padding-bottom: 20px;
+	margin-bottom: 30px
+}
+
+.items h1{
+ font-size: 28px;
+ background-color: purple;
+ padding:5px;
+}
+.btn2 {
+	margin:0 9px;
+	background-color: blue;
+	border-radius: 2rem;
+	color:#fafafa;
+	padding: 1rem 2rem;
+	display:inline-block;
+	margin-top: 2rem;
+	font-weight: 500px;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.btn2:hover{
+	color: #fafafa;
+	background-color: orange;
+}
+.contact{
+	
+min-height: 100vh;
+max-width: 70rem;
+margin: auto;
+margin-left: 300px;
+}
+.contact h2{
+	text-align:center;
+	font-size:2rem;
+	margin-bottom: 0rem;
+}
+.contact p{
+	font-size: 1.4rem;
+	padding:0;
+	margin: 0;
+	/*color: skyblue;*/
+}
+.contact .container{
+	
+	align-items: center;
+}
+footer {
+	width:100%;
+	min-width: 70rem;
+	margin:auto;
+	padding: 5.5rem;
+	/*color:purple;*/
+	text-align: center;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	word-spacing: 25px;
+}
+
+.pict2{
+	width:300px;
+	float: right;
+	margin-top: 1rem;
+	margin-right: 5px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+	
+.owner{
+	text-align: left;
+}
+a:hover{
+	color: orange;
+}
