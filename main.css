@@ -29,7 +29,7 @@ p {
 
 header{
 	width : 100%;
-	height: 5rem;
+	/*height: 5rem;*/
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -37,13 +37,13 @@ header{
 }
 .container{
 	width: 100%;
-	max-width: 90rem;
+	/*max-width: 90rem;*/
 	margin: 0 auto;
 	padding: 0 1.5rem;
 
 }
 .pict{
-	height: 12rem;
+	/*height: 12rem;*/
 	width: auto;
 	border-radius: 50%;
 	display:block;
@@ -111,7 +111,7 @@ header{
 }
 #home-page{
 	width:100%;
-	height: 100vh;
+	height: 80vh;
     background-size: contain;
 	position: relative;
 }
@@ -171,7 +171,7 @@ header{
 }
 #about{
 	
-	min-height: 100vh;
+	min-height: 80vh;
 	max-width: 70rem;
 	/*margin-left: auto;*/
 	margin-left: 300px;
@@ -181,7 +181,7 @@ header{
 .about.container{
 	display:flex;
 	text-align: center;
-	min-height:60vh;
+	/*min-height:60vh;*/
 	margin-left: auto;
 
 }
@@ -200,23 +200,25 @@ header{
 .projects{
 	
 	/*min-height: 100vh;*/
-	min-height: 60vh;
+	/*min-height: 60vh;*/
 	max-width: 70rem;
 	margin-left: 300px;
-	padding: 3rem 0;
+	padding: 4rem 0;
+
 	
 }
 .projects.container{
 	display:flex;
 	text-align: center;
 	/*min-height:80vh;*/
-	min-height:40vh
+	/*min-height:40vh*/
 	margin-top: .2rem;
 	
 }
 
 .pro{
 	width : 400px;
+
 }
 .description1{
  display:flex;
@@ -242,7 +244,7 @@ header{
 .items{
 	background-color: #ac5dd642;
 	padding-bottom: 20px;
-	margin-bottom: 30px
+	margin-bottom: 70px
 }
 
 .items h1{
@@ -268,7 +270,7 @@ header{
 }
 .contact{
 	
-min-height: 100vh;
+min-height: 20vh;
 max-width: 70rem;
 margin: auto;
 margin-left: 300px;
@@ -285,14 +287,15 @@ margin-left: 300px;
 	/*color: skyblue;*/
 }
 .contact .container{
-	
+	height: 70px;
 	align-items: center;
+	/*margin-top: 50px;*/
 }
 footer {
 	width:100%;
 	min-width: 70rem;
 	margin:auto;
-	padding: 5.5rem;
+	padding: 1rem;
 	/*color:purple;*/
 	text-align: center;
 	font-size: 1.6rem;
@@ -300,6 +303,7 @@ footer {
 	justify-content: space-evenly;
 	flex-direction: column;
 	word-spacing: 25px;
+	height: 100px;
 }
 
 .pict2{
@@ -313,6 +317,7 @@ footer {
 	
 .owner{
 	text-align: left;
+	margin: 20px 0;
 }
 a:hover{
 	color: orange;
